@@ -23,8 +23,6 @@ const items = Array.from({ length: 5 }, () => {
 });
 
 const Exercise = () => {
-	return <h1>Exercise 2</h1>;
-
 	return (
 		<div>
 			{items.map((item) => {

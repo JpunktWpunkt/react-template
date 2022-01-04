@@ -9,8 +9,6 @@ import "./styles.css";
  *      And The button text changes
  */
 const Exercise = () => {
-	return <h1>Exercise 1</h1>;
-
 	const [visible, setVisible] = React.useState(true); //[Boolean,function]
 	return (
 		<div className="card">
