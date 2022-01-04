@@ -32,9 +32,7 @@ const Exercise = () => {
 				<Checkbox>Checkbox D</Checkbox>
 			</div>
 			<List>
-				<listItem Wert1={"Prop1"} Wert2={"Prop2"} Wert3={"Prop4"}>
-					ich bin ein ListItem
-				</listItem>
+				<listItem>ich bin ein ListItem</listItem>
 				<li>ich bin nur ein li</li>
 				<li>C</li>
 				<li>C</li>

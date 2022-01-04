@@ -1,27 +1,21 @@
 import styles from "../Checkbox/styles.module.css";
 import React from "react";
 
-const ListItem = ({ children, fancy, ...rest }) => {
-	console.log(rest);
+/**
+ * ## Reusable components
+ * 1. Make a reusable Button component
+ * 2. Make a reusable Typography component
+ * 3. Make a reusable Checkbox component
+ * 4. Make a reusable List and ListItem component
+ */
+const ListItem = ({ children, className, ...props }) => {
 	return (
-		<li {...rest} className={[styles.List, className].join(" ")}>
-			{marker} {children}
-		</li>
+		<div>
+			<li {...props} className={[styles.ListItem, className].join(" ")}>
+				{marker}
+				{children}
+			</li>
+		</div>
 	);
-};
-const A = {
-	a: 1,
-	b: 2,
-	c: 3,
-}; //props = a b c
-console.log("A", A);
-
-const B = {
-	...A,
-}; //Props = a b c
-const { a, ...rest } = A; // a, Props(rest) = b c
-
-const C = {
-	...rest, // Props(rest) = a b c
 };
 export default ListItem;
