@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./exercise/styles.css";
 /**
  * ## Card
  *  1. Create a card with an image, a headline and a description
@@ -9,9 +9,7 @@ import "./styles.css";
  *      And The button text changes
  */
 const Exercise = () => {
-	return <h1>Exercise 1</h1>;
-
-	const [visible, setVisible] = React.useState(true); //[Boolean,function]
+	const [visible, setvisible] = React.useState(true); //[Boolean,function]
 	return (
 		<div className="card">
 			<img
@@ -45,7 +43,7 @@ const Exercise = () => {
 					className="card__button"
 					onClick={() => {
 						console.log("irgendwas rein");
-						setVisible(!visible);
+						setvisible(!visible);
 					}}
 				>
 					{visible ? "Hide" : "Show"}
