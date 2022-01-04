@@ -8,11 +8,17 @@ import styles from "./styles.module.css";
  * 3. Make a reusable Checkbox component
  * 4. Make a reusable List and ListItem component
  */
-const Button = ({ children, className, ...props }) => {
+const Checkbox = ({ children, className, ...props }) => {
 	return (
-		<button {...props} className={[styles.Button, className].join(" ")}>
-			{children}
-		</button>
+		<div>
+			<input
+				type="checkbox"
+				id="input"
+				{...props}
+				className={[styles.Checkbox, className].join(" ")}
+			/>
+			<label for="input">{children}</label>
+		</div>
 	);
 };
-export default Button;
+export default Checkbox;
