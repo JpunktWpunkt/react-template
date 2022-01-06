@@ -22,3 +22,14 @@ const Checkbox = ({ children, className, ...props }) => {
 	);
 };
 export default Checkbox;
+
+/*const Checkbox =({label, ...props}) => {
+	return (
+		<label>
+			<div>{label}</div>
+			<input {...props} className={[styles.Input]} type="checkbox" />
+			<div className={styles.Check} />
+			</div>
+		</label>
+	);
+};*/

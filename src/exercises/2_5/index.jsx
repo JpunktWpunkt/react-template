@@ -31,6 +31,15 @@ const Exercise = () => {
 				<Checkbox>Checkbox C</Checkbox>
 				<Checkbox>Checkbox D</Checkbox>
 			</div>
+			{/*			<div>
+				<Checkbox label"" onchance={(event_) =>
+				console.log(event_.target.checked);
+				}
+				/>
+			<Checkbox>Checkbox B</Checkbox>
+			<Checkbox>Checkbox C</Checkbox>
+			<Checkbox>Checkbox D</Checkbox>
+		</div>*/}
 			<List>
 				<listItem>ich bin ein ListItem</listItem>
 				<li>ich bin nur ein li</li>
