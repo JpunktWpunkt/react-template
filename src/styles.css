@@ -6,3 +6,7 @@ body {
 	margin: 0;
 	font-family: sans-serif;
 }
+
+.test {
+	background-image: linear-gradient(to top, rgba(10, 50, 0, 0.5), rgba(100, 100, 0, 0.5));
+}

@@ -1,4 +1,7 @@
 .ListItem {
-	background-color: orange;
-	box-shadow: 1px 1px 1px 1px black;
+	padding: 0;
+	list-style: none;
+}
+
+.ListItem::before {
 }

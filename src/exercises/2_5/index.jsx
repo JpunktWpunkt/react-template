@@ -1,8 +1,9 @@
 import React from "react";
 import Button from "../components/Button";
 import List from "../components/List";
-import ListItem from "../components/ListItem";
+/*import ListItem from "../components/ListItem";*/
 import Checkbox from "../components/Checkbox";
+import Typography from "../components/Typography";
 import "./style.css";
 
 /**
@@ -25,6 +26,10 @@ const Exercise = () => {
 			<Button className="Baum">
 				<h3>Button B</h3>
 			</Button>{" "}
+			<Button className="test">
+				{/*Werte sind in der globalen style.css drin*/}
+				<h3>Button C</h3>
+			</Button>{" "}
 			<div>
 				<Checkbox>Checkbox A</Checkbox>
 				<Checkbox>Checkbox B</Checkbox>
@@ -32,7 +37,7 @@ const Exercise = () => {
 				<Checkbox>Checkbox D</Checkbox>
 			</div>
 			{/*			<div>
-				<Checkbox label"" onchance={(event_) =>
+				<Checkbox label"" onchange={(event_) =>
 				console.log(event_.target.checked);
 				}
 				/>
@@ -52,6 +57,11 @@ const Exercise = () => {
 				<li>C</li>
 				<li>C</li>
 			</List>
+			<div>
+				<Typography component="h2" variant="h3">
+					Headline1
+				</Typography>
+			</div>
 		</div>
 	);
 };

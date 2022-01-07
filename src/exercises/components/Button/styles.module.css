@@ -1,12 +1,13 @@
 .Button {
 	text-decoration: none;
-	border-radius: 2rem;
-	padding: 1em 2em;
+	border-radius: 2rem 0.5rem 2rem 0.5rem;
+	padding: 0.8em 1.5em;
 	box-shadow: 0 0 5px black;
 	font-size: 16px;
 	display: inline-block;
 }
 
-.Juhuu {
-	background-color: blue;
+.Button:hover {
+	background-image: linear-gradient(to top, rgba(50, 200, 0, 0.5), rgba(200, 0, 0, 0.5));
+	transform: scale(1.5);
 }
