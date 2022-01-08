@@ -1,0 +1,41 @@
+.Card {
+	background-color: lightgrey;
+	width: 300px;
+	border-radius: 20px 20px 20px 100px;
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	margin: 20px auto;
+	padding: 15px;
+	box-shadow: 0 0 10px black;
+}
+
+.Card__image {
+	width: 80%;
+	align-self: center;
+	border-radius: 10px;
+	border: 2px solid black;
+	box-shadow: 0 0 10px black;
+}
+
+.Card__descriptions {
+	align-self: flex-end;
+	padding: 10px 0px 20px 10px;
+}
+
+.Card__actions {
+	align-self: flex-end;
+}
+
+.Card__headline {
+	align-self: center;
+}
+
+.Card__button {
+	text-decoration: none;
+	border-radius: 2rem;
+	padding: 1em 2em;
+	box-shadow: 0 0 5px black;
+	font-size: 16px;
+	display: inline-block;
+}
