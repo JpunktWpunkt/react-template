@@ -10,6 +10,7 @@ const Portfolio = () => {
 			<Flex variant="column">
 				<Layout />
 				<Chbox />
+				<Button>Button</Button>
 			</Flex>
 		</div>
 	);

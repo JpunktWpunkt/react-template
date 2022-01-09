@@ -1,13 +1,14 @@
 .Header {
 	text-decoration: none;
-	border-radius: 2rem 0.5rem 2rem 0.5rem;
 	padding: 1em 2em;
-	box-shadow: 0 0 5px black;
 	font-size: 16px;
-	display: inline-block;
-	border: solid 1px black;
+	gap: 10px;
+	display: flex;
+	color: red;
+	justify-content: space-around;
 }
 
 .Link {
-	color: red;
+	color: blue;
+	text-decoration: none;
 }

@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
 	return (
 		<div>
 			<Header className="Link" />
-			<div>{children}</div>
+			<div>hier ist der Content drin der auch children übergeben werden könnte </div>
 			<Footer> Footer</Footer>
 		</div>
 	);

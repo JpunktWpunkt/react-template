@@ -7,11 +7,8 @@ const Header = ({ children, className, ...props }) => {
 		<header {...props} className={[styles.Header, className].join(" ")}>
 			{children}
 			<nav>
-				<Link className="Link" to="/portfolio/my-work">
-					My-work
-				</Link>
-				<Link to="/portfolio/about-me">About-me</Link>
-				<Link to="/portfolio/contact">contact</Link>
+				<Link to="/portfolio/my-work">My-work</Link>
+				<Link to="/portfolio/about-me">About me</Link>
 			</nav>
 		</header>
 	);

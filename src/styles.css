@@ -5,8 +5,10 @@
 body {
 	margin: 0;
 	font-family: sans-serif;
+	_background-color: #ccd3d9;
+	background-image: linear-gradient(to top, rgba(204, 211, 217, 0.1), rgba(204, 211, 217, 0.95));
 }
 
 .test {
-	background-image: linear-gradient(to top, rgba(10, 50, 0, 0.5), rgba(100, 100, 0, 0.5));
+	background-image: linear-gradient(to top, rgba(204, 211, 217, 0.1), rgba(100, 100, 0, 0.95));
 }
